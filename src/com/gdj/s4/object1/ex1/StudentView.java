@@ -7,10 +7,11 @@ public class StudentView {
 	//학생들을 받아서 학생의 모든 정보를 출력
 	
 	public void view(Student [] sts) {
-		StudentView sv = new StudentView();
+		
 		for(int i=0; i<sts.length;i++) {
 			Student st =sts[i];
-			sv.view(st);
+			this.view(st);//this를 사용하여 자기 class내의 다른 메서드 호출
+			
 		}
 		
 	}

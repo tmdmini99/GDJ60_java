@@ -9,7 +9,16 @@ public class Monster {
 	//멤버 메서드 또는 instance method
 	//공격
 	//돌아다님
-	
+	//생성자 constructor
+	public Monster() {
+		//매개변수가 없는 생성자를 기본생성자,default constructor
+		this.power=50;
+		this.hp=60;
+		System.out.println("생성자 실행");
+	}
+	public Monster(int a) {
+		
+	}
 	
 	public boolean checkValue(Monster monster) {
 		//나의 power와 같고 나의 hp가 같다면 true 리턴
