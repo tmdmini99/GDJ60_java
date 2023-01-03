@@ -11,6 +11,7 @@ public class Main {
 		mc.start();
 		System.out.println("finish");
 		System.out.println("집에서가추가");
+		//finish 끝
 		//Scanner sc =new Scanner(System.in);
 		
 		//StudentView st1 =new StudentView();
