@@ -46,7 +46,7 @@ public class StudentInput {
 	
 	public Student[] setStudent(Student [] sts) {
 		Student [] stss =new Student[sts.length+1];
-
+		
 		for(int i=0; i<sts.length;i++) {
 			stss[i]=sts[i];
 		}

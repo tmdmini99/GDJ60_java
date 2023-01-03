@@ -6,6 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		//프로그램 시작
+		System.out.println("start");
 		MenuController mc =new MenuController();
 		mc.start();
 		//Scanner sc =new Scanner(System.in);
