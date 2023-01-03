@@ -10,6 +10,7 @@ public class Main {
 		MenuController mc =new MenuController();
 		mc.start();
 		System.out.println("finish");
+		System.out.println("집에서가추가");
 		//Scanner sc =new Scanner(System.in);
 		
 		//StudentView st1 =new StudentView();
