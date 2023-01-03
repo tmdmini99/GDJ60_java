@@ -9,6 +9,7 @@ public class Main {
 		System.out.println("start");
 		MenuController mc =new MenuController();
 		mc.start();
+		System.out.println("finish");
 		//Scanner sc =new Scanner(System.in);
 		
 		//StudentView st1 =new StudentView();
