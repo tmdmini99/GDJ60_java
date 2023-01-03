@@ -30,17 +30,17 @@ public class MenuController {
 			Student st=st1.findStudent(sts);
 			if(st !=null) {
 				System.out.println("학생 정보");
-				st2.viewOne(st);
+				st2.view(st);
 			}else
 				System.out.println("찾는 학생이 없습니다");
 			
 		}else if(nu == 3) {
 			System.out.println("출력완료 완료");
-			st2.viewList(sts);
+			st2.view(sts);
 		}else if(nu == 4){
 				sts =st1.setStudent(sts);
 				System.out.println("학생수"+sts.length);
-				st2.viewList(sts);
+				st2.view(sts);
 		}else {
 			System.out.println("종료");
 			break;
