@@ -11,6 +11,8 @@ public class Main {
 		character = archer;
 		archer = (Archer)character;
 		
+		
+		
 
 	}
 
